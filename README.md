@@ -1,6 +1,12 @@
 # Taskfile
 Repository for the Taskfile template. Reference: https://github.com/adriancooney/Taskfile
 
+---------------------------------------------------------------
+
+**NOTE:** For GOLang developers please refer [Taskfile.yml](https://taskfile.dev/#/) Task is a task runner / build tool that aims to be simpler and easier to use. [Installation & Usage here](https://taskfile.dev/#/usage) 
+
+---------------------------------------------------------------
+
 This repository contains the default Taskfile template for getting started in your own projects. A Taskfile is a bash (or zsh etc.) script that follows a specific format. It's called `Taskfile`, sits in the root of your project (alongside your package.json) and contains the tasks to build your project.
 
 ```sh
