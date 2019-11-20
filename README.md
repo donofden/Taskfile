@@ -285,16 +285,6 @@ So typing out `./Taskfile` every time you want to run a task is a little lousy. 
     beep boop built
     Task completed in 0m1.008s
 
-### Quickstart
-Alongside my `run` alias, I also added a `run-init` to my *.zshrc* to quickly get started with a new Taskfile in a project. It downloads a [small Taskfile template](http://github.com/adriancooney/Taskfile) to the current directory and makes it executable:
-
-    $ alias run-init="curl -so Taskfile https://medium.com/r/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fadriancooney%2FTaskfile%2Fmaster%2FTaskfile.template && chmod +x Taskfile"
-
-    $ run-init
-    $ run build
-    beep boop built
-    Task completed in 0m1.008s
-
 ### Importing from npm
 If you've the incredible [jq](https://stedolan.github.io/jq/manual/) installed (you should, it's so useful), here's a handy oneliner to import your scripts from your package.json into a fresh Taskfile. Copy and paste this into your terminal with your package.json in the working directory:
 
